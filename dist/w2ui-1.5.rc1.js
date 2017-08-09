@@ -6451,7 +6451,7 @@ w2utils.event = {
                     }
                     break;
             }
-            var tmp = [32, 187, 189, 192, 219, 220, 221, 186, 222, 188, 190, 191]; // other typable chars
+            var tmp = [32, 187, 189, 192, 219, 220, 221, 186, 222, 229, 188, 190, 191]; // other typable chars
             for (var i=48; i<=111; i++) tmp.push(i); // 0-9,a-z,A-Z,numpad
             if (tmp.indexOf(key) != -1 && !event.ctrlKey && !event.metaKey && !cancel) {
                 if (columns.length === 0) columns.push(0);
