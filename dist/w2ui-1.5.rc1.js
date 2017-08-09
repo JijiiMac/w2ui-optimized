@@ -6171,6 +6171,10 @@ w2utils.event = {
                     cancel = true;
                     break;
 
+                case 0: // start of Japanese IME
+
+                case 229: // Japanese IME
+
                 case 13: // enter
                     // if expandable columns - expand it
                     if (this.selectType == 'row' && obj.show.expandColumn === true) {
