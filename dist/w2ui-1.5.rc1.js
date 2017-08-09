@@ -6153,6 +6153,7 @@ w2utils.event = {
 
             switch (key) {
                 case 8:  // backspace
+                    obj.editField(obj.getSelection()[0].recid, obj.getSelection()[0].column, '');
                 case 46: // delete
                     if (this.show.toolbarDelete || this.onDelete) obj["delete"]();
                     cancel = true;
