@@ -4,3 +4,4 @@ This is a modified version of [Vitmalina's](https://github.com/vitmalina) [w2ui 
 
 ### change log
 - modify keydown to pickup 229 keyCode
+- enabled cell value removal by backspace
